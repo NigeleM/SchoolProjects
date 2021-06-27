@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:textColor="#FFFFFF"
+        android:title="Home"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_week"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_today"
+        android:textColor="#FFFFFF"
+        android:title="Week"
+        android:visible="true"
+        app:showAsAction="always" />
+
+
+
+    <item
+        android:id="@+id/action_compose"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Compose"
+        app:showAsAction="always"
+        android:visible="true"
+        android:enabled="true"
+        android:textColor="#FFFFFF"
+
+        />
+    <item
+        android:id="@+id/action_profile"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Profile"
+        app:showAsAction="always"
+        android:visible="true"
+        android:enabled="true"
+        android:textColor="#FFFFFF"
+        />
+
+
+    <item
+        android:id="@+id/action_posts"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_view"
+        android:textColor="#FFFFFF"
+        android:title="Posts"
+        android:visible="true"
+        app:showAsAction="always" />
+
+
+
+
+
+
+
+</menu>

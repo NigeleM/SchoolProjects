@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/gradient">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:background="@drawable/gradient">
+
+            <TextView
+                android:id="@+id/updated_field"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="16:00"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                />
+
+            <TextView
+                android:id="@+id/details_field"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="No data"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                />
+
+
+            <TextView
+                android:id="@+id/pressure_field"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Pressure: 0 hpa"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                />
+
+            <TextView
+                android:id="@+id/humidity_field"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Humidity: 0 %"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/weather_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            tools:text="o"
+            android:textSize="48sp"
+            android:textColor="#FFFFFF"
+            />
+
+        <TextView
+            android:id="@+id/current_temperature_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="0 °C"
+            android:textSize="22sp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/weather_icon"
+            android:layout_alignRight="@+id/weather_icon"
+            android:layout_alignEnd="@+id/weather_icon"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:background="@drawable/gradient">
+
+            <TextView
+                android:id="@+id/updated_field1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="16:00"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                />
+
+            <TextView
+                android:id="@+id/details_field1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="No data"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                />
+
+
+            <TextView
+                android:id="@+id/pressure_field1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Pressure: 0 hpa"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                />
+
+            <TextView
+                android:id="@+id/humidity_field1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Humidity: 0 %"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/weather_icon1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            tools:text="o"
+            android:textSize="48sp"
+            android:textColor="#FFFFFF"
+            />
+
+        <TextView
+            android:id="@+id/current_temperature_field1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="0 °C"
+            android:textSize="22sp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/weather_icon1"
+            android:layout_alignRight="@+id/weather_icon1"
+            android:layout_alignEnd="@+id/weather_icon1"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:background="@drawable/gradient">
+
+            <TextView
+                android:id="@+id/updated_field2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="16:00"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                />
+
+            <TextView
+                android:id="@+id/details_field2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="No data"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                />
+
+
+            <TextView
+                android:id="@+id/pressure_field2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Pressure: 0 hpa"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                />
+
+            <TextView
+                android:id="@+id/humidity_field2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Humidity: 0 %"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/weather_icon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            tools:text="o"
+            android:textSize="48sp"
+            android:textColor="#FFFFFF"
+            />
+
+        <TextView
+            android:id="@+id/current_temperature_field2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="0 °C"
+            android:textSize="22sp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/weather_icon2"
+            android:layout_alignRight="@+id/weather_icon2"
+            android:layout_alignEnd="@+id/weather_icon2"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:background="@drawable/gradient">
+
+            <TextView
+                android:id="@+id/updated_field3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="16:00"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                />
+
+            <TextView
+                android:id="@+id/details_field3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="No data"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                />
+
+
+            <TextView
+                android:id="@+id/pressure_field3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Pressure: 0 hpa"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                />
+
+            <TextView
+                android:id="@+id/humidity_field3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Humidity: 0 %"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/weather_icon3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            tools:text="o"
+            android:textSize="48sp"
+            android:textColor="#FFFFFF"
+            />
+
+        <TextView
+            android:id="@+id/current_temperature_field3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="0 °C"
+            android:textSize="22sp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/weather_icon3"
+            android:layout_alignRight="@+id/weather_icon3"
+            android:layout_alignEnd="@+id/weather_icon3"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:background="@drawable/gradient">
+
+            <TextView
+                android:id="@+id/updated_field4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="16:00"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                />
+
+            <TextView
+                android:id="@+id/details_field4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="No data"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                />
+
+
+            <TextView
+                android:id="@+id/pressure_field4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Pressure: 0 hpa"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                />
+
+            <TextView
+                android:id="@+id/humidity_field4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Humidity: 0 %"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/weather_icon4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            tools:text="o"
+            android:textSize="48sp"
+            android:textColor="#FFFFFF"
+            />
+
+        <TextView
+            android:id="@+id/current_temperature_field4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="0 °C"
+            android:textSize="22sp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/weather_icon4"
+            android:layout_alignRight="@+id/weather_icon4"
+            android:layout_alignEnd="@+id/weather_icon4"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+</LinearLayout>
