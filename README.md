@@ -8,4 +8,4 @@
 
 # SEMINAR Project
 Android Weather App using openWeather API.
-<img src="Weather Final Build.gif" width=800 height=800><br>
+<img src="Weather Final Build-2.gif" width=800 height=800><br>
